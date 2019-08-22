@@ -1,0 +1,138 @@
+Index: src/Talleres_1/Taller2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Talleres_1/Taller2.java	(date 1566434406596)
++++ src/Talleres_1/Taller2.java	(date 1566434406596)
+@@ -17,8 +17,7 @@
+         System.out.println(" Ingrese su nombre ");
+         nomb= tem.nextLine();
+ 
+-        System.out.println(" Ingrese su apellido ");
+-        ape = tem.nextLine();
++
+ 
+         BufferedReader h=new BufferedReader (new InputStreamReader(System.in));
+         System.out.println(" Ingrese su año de nacimiento  ");
+@@ -31,7 +30,7 @@
+ 
+         int edad=act-nac;
+ 
+-        System.out.println("Su edad actual es:" +nomb +""+ape+""+edad);
++        System.out.println("Su edad actual es:" +"ano"+edad);
+ 
+ 
+ 
+Index: src/Talleres_1/Taller3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Talleres_1/Taller3.java	(date 1566434406573)
++++ src/Talleres_1/Taller3.java	(date 1566434406573)
+@@ -1,44 +1,4 @@
+ package Talleres_1;
+ 
+-
+-
+-
+-
+-import java.io.BufferedReader;
+-import java.io.IOException;
+-import java.io.InputStreamReader;
+-import java.util.Scanner;
+-
+ public class Taller3 {
+-
+-    public static void main(String[] args) throws IOException {
+-        Scanner tem = new Scanner(System.in);
+-
+-        String nomb,ape;
+-
+-        System.out.println(" Ingrese su nombre ");
+-        nomb= tem.nextLine();
+-
+-
+-
+-        BufferedReader h=new BufferedReader (new InputStreamReader(System.in));
+-        System.out.println(" Ingrese su año de nacimiento  ");
+-        int nac=Integer.parseInt(h.readLine());
+-
+-        System.out.println(" Ingrese su año actual ");
+-        int act=Integer.parseInt(h.readLine());
+-
+-
+-
+-        int edad=act-nac;
+-
+-        System.out.println("Su edad actual es:" +"ano"+edad);
+-
+-
+-
+-    }
+-
+-
+ }
+-
+-
+Index: src/Talleres_1/Taller5.java
+===================================================================
+--- src/Talleres_1/Taller5.java	(date 0)
++++ src/Talleres_1/Taller5.java	(date 0)
+@@ -1,4 +0,0 @@
+-package Talleres_1;
+-
+-public class Taller5 {
+-}
+Index: src/Talleres_1/Taller4.java
+===================================================================
+--- src/Talleres_1/Taller4.java	(date 0)
++++ src/Talleres_1/Taller4.java	(date 0)
+@@ -1,33 +0,0 @@
+-package Talleres_1;
+-
+-import java.io.BufferedReader;
+-import java.io.IOException;
+-import java.util.Scanner;
+-import java.io.InputStreamReader;
+-public class Taller4 {
+-
+-    public static void main(String[] args) throws IOException {
+-        Scanner tem = new Scanner(System.in);
+-        String clien;
+-
+-        System.out.println(" Ingrese su nombre ");
+-        clien= tem.nextLine();
+-
+-
+-        double mont,itbms,total;
+-        InputStreamReader input = new InputStreamReader(System.in);
+-        BufferedReader teclado=new BufferedReader(input);
+-        System.out.println("digite el monto a pagar");
+-        mont=Double.valueOf(teclado.readLine());
+-        itbms = mont*0.07;
+-        System.out.println("itbms"+itbms);
+-
+-
+-
+-       clien= mont *itbms + total
+-
+-
+-        System.out.println("");
+-
+-    }
+-}
+\ No newline at end of file
+Index: src/Talleres_2/Taller2_1.java
+===================================================================
+--- src/Talleres_2/Taller2_1.java	(date 0)
++++ src/Talleres_2/Taller2_1.java	(date 0)
+@@ -1,7 +0,0 @@
+-package Talleres_2;
+-
+-public class Taller2_1 {
+-
+-
+-
+-}
