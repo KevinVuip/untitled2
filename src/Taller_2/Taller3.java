@@ -22,7 +22,7 @@ public class Taller3 {
 
         } else {
 
-            System.out.println("la letra ingresada es una consonante");
+            System.out.println("la letra ingresada es una palabra");
 
         }
 

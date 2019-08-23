@@ -10,10 +10,11 @@ public class Taller1 {
         System.out.print("Ingrese su codigo de area: ");
         num = entrada.nextInt();
 
-        if(num > 507 )
+        if(num >= 507 )
             System.out.println("Eres local");
 
-        if(num < 507 )
+
+
         else
             System.out.println("Sigue intentando");
     }
